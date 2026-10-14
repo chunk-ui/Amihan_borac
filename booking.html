@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book or Inquire | Amihan Escapes: Palawan</title>
+<meta name="description" content="Send a booking inquiry for Palawan tour packages with Amihan Escapes.">
+<meta name="keywords" content="Palawan tours, El Nido island hopping, Coron tours, Puerto Princesa Underground River, Philippines travel agency">
+<meta property="og:title" content="Book or Inquire | Amihan Escapes: Palawan">
+<meta property="og:description" content="Send a booking inquiry for Palawan tour packages with Amihan Escapes.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="index.html" aria-label="Amihan Escapes: Palawan - Home"><img src="logo.png" alt="Amihan Escapes: Palawan logo"><span>Amihan Escapes</span></a>
+<button class="menu-btn" aria-expanded="false" aria-controls="site-nav">Menu</button>
+<nav aria-label="Main"><ul class="nav" id="site-nav"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="destinations.html">Destinations</a></li><li><a href="packages.html">Packages</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="travel-info.html">Travel Info</a></li><li><a href="booking.html" class="book" aria-current="page">Book Now</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+</div>
+</header>
+<main id="main">
+<div class="page-hero"><div class="wrap"><h1>Book or Inquire</h1><p>Tell us when you want to go. We reply within 24 hours with availability and a quote.</p></div><div class="waves"><svg viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true"><path d="M0,40 C240,80 480,0 720,30 C960,60 1200,10 1440,40 L1440,70 L0,70Z" fill="#ffffff"/></svg></div></div>
+<section>
+<div class="wrap grid g2" style="grid-template-columns:1.2fr .8fr;align-items:start">
+<div class="form-card">
+<h2>Inquiry form</h2>
+<form id="booking-form" novalidate>
+<div class="row2">
+<div><label for="name">Full name</label><input id="name" name="name" autocomplete="name" required><div class="err" aria-live="polite"></div></div>
+<div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><div class="err" aria-live="polite"></div></div>
+</div>
+<div><label for="package">Package</label><select id="package" name="package" required><option value="">Choose one</option><option value="Bacuit Bay Island Hopper (El Nido, 4D3N)">Bacuit Bay Island Hopper (El Nido, 4D3N)</option><option value="Coron Wonders (3D2N)">Coron Wonders (3D2N)</option><option value="Puerto Princesa Classic (3D2N)">Puerto Princesa Classic (3D2N)</option><option value="Palawan Grand Escape (6D5N)">Palawan Grand Escape (6D5N)</option><option value="General inquiry">General inquiry</option></select><div class="err" aria-live="polite"></div></div>
+<div class="row2">
+<div><label for="date">Preferred travel date</label><input id="date" name="date" type="date" required><div class="err" aria-live="polite"></div></div>
+<div><label for="guests">Number of guests</label><select id="guests" name="guests"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select><div class="err"></div></div>
+</div>
+<div><label for="message">Message (optional)</label><textarea id="message" name="message" placeholder="Special requests, ages of children, hotel preference"></textarea></div>
+<button class="btn" type="submit">Send Inquiry</button>
+<p style="font-size:.9rem;margin:0">We only ask for what we need to reply. Please do not enter ID numbers or payment details.</p>
+</form>
+<div class="confirm" id="confirm" role="status">
+<h3>Inquiry ready to send</h3>
+<p>Thank you. Here is what you entered:</p>
+<ul id="confirm-list"></ul>
+<p>Click below to send it to us by email.</p>
+<a class="btn" id="mail-link" href="#">Open Email to Send</a>
+</div>
+</div>
+<aside>
+<div class="card"><div class="body"><h3>How booking works</h3>
+<ol style="padding-left:20px;margin:0 0 1em"><li>Send your inquiry</li><li>We confirm availability and quote within 24 hours</li><li>You approve the itinerary</li><li>We send a confirmation with meeting point and reminders</li></ol>
+<p><strong>Season offer:</strong> 10% off for bookings made 30 days ahead for November to February travel. Use code AMIHAN10.</p>
+<p>Prefer to message us? Email hello@amihanescapes.example or call +63 917 555 0142.</p></div></div>
+</aside>
+</div>
+</section>
+
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<div class="fgrid">
+<div>
+<a class="brand" href="index.html"><img src="logo.png" alt="Amihan Escapes logo"><span>Amihan Escapes: Palawan</span></a>
+<p>Small-group island tours, lagoon cruises and guided trips across El Nido, Coron and Puerto Princesa.</p>
+</div>
+<div>
+<h4>Explore</h4>
+<ul>
+<li><a href="about.html">About us</a></li>
+<li><a href="destinations.html">Destinations</a></li>
+<li><a href="packages.html">Tour packages</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="travel-info.html">Travel information</a></li>
+</ul>
+</div>
+<div>
+<h4>Plan</h4>
+<ul>
+<li><a href="booking.html">Book or inquire</a></li>
+<li><a href="contact.html">Contact us</a></li>
+<li><a href="travel-info.html#faq">FAQ</a></li>
+<li><a href="#privacy">Privacy statement</a></li>
+</ul>
+</div>
+<div>
+<h4>Contact</h4>
+<ul>
+<li>rheyniellevillena@gmail.com</li>
+<li>+63 917 555 0142</li>
+<li>Rizal Avenue, Puerto Princesa City, Palawan</li>
+<li><a href="https://www.facebook.com/share/19XA7o7oww/" target="_blank" rel="noopener">Facebook</a> &middot;</li>
+</ul>
+</div>
+</div>
+<div class="legal" id="privacy">
+<p>&copy; 2026 Amihan Escapes: Palawan. All rights reserved.</p>
+<p>Privacy statement: the inquiry forms on this site only ask for the details needed to answer your inquiry (name, email, travel date, group size). Please do not share passwords, ID numbers or payment details through any form.</p>
+<p>Disclaimer: this website is an academic project for Applied Business Tools and Technologies in Tourism. The business, contact details, prices and testimonials are fictional. Destination facts are general information and may change; always verify with official tourism offices before traveling. Illustrations were created for this project.</p>
+</div>
+</div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
